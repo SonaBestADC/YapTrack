@@ -2,12 +2,16 @@
   "name": "yaptrack",
   "version": "1.0.0",
   "description": "Discord Yap Tracking Bot",
-  "tpye": "module",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.15.2",
+    "dotenv": "^16.4.5"
+  }
 }
